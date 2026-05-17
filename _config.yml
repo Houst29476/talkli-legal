@@ -1,0 +1,7 @@
+title: Talkli
+description: Public speaking + interview coach. Privacy-first, on-device.
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+markdown: kramdown
+permalink: /:slug
