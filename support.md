@@ -8,9 +8,9 @@ Need help with Talkli? You're in the right place. Below are the most common ques
 
 ## Quick contact
 
-- **Email:** hello@masdineroventures.com
-- **Privacy questions:** privacy@masdineroventures.com
-- **Press / business:** hello@masdineroventures.com
+- **Email:** support@masdineroventures.com
+- **Privacy questions:** support@masdineroventures.com
+- **Press / business:** support@masdineroventures.com
 
 We aim to reply within 1–2 business days.
 
@@ -130,7 +130,7 @@ Check your Apple **Wallet & Apple Pay** or your iPhone **Settings → your name 
 
 ### Feature requests + feedback
 
-We read every message. Email us at **hello@masdineroventures.com** with:
+We read every message. Email us at **support@masdineroventures.com** with:
 - What feature you'd like to see
 - Why it would matter for how you practice
 - Any rough idea of how you'd want it to work
@@ -149,7 +149,7 @@ We can't promise to ship every request, but the most-requested features shape ou
 
 ## Reporting a bug
 
-Email **hello@masdineroventures.com** with:
+Email **support@masdineroventures.com** with:
 1. What you did (e.g., "Tapped Start Session on the Practice tab")
 2. What you expected to happen
 3. What actually happened
@@ -177,7 +177,7 @@ Refunds for Talkli purchases (subscriptions or one-time unlocks) are handled by 
 
 ## Still need help?
 
-**Email: hello@masdineroventures.com**
+**Email: support@masdineroventures.com**
 
 We're a small team. Replies come from a real human and usually arrive within 1–2 business days. If your issue is urgent (App is unusable, refund question, privacy concern), say so in the subject line and we'll bump it up the queue.
 
