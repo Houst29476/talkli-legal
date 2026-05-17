@@ -115,7 +115,7 @@ You have the right to access, rectify, port, erase, or restrict processing of yo
 You have the right to know what personal information is collected, the right to delete it, and the right to opt out of "sale" or "sharing" (we do neither). Categories of personal information we may collect are described in Sections 3.1–3.3 above. To exercise these rights, email us.
 
 ### Contact for privacy requests
-**Email:** privacy@talkli.app
+**Email:** privacy@masdineroventures.com
 We will respond within 30 days.
 
 ---
@@ -139,7 +139,7 @@ Each processor is bound by their own privacy commitments. Their privacy policies
 
 ## 7. Children
 
-Talkli is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, contact us at privacy@talkli.app and we will delete it.
+Talkli is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, contact us at privacy@masdineroventures.com and we will delete it.
 
 Children under 17 should obtain a parent's or guardian's permission before using Talkli.
 
@@ -177,11 +177,12 @@ We will never make a material change in a way that affects already-collected dat
 ## 12. Contact
 
 **Mas Dinero Ventures LLC**
-[YOUR BUSINESS ADDRESS — fill in before publishing]
-Email: privacy@talkli.app
+21823 Tamworth Hollow Trail
+Cypress, TX 77433
+Email: privacy@masdineroventures.com
 
-For general questions: hello@talkli.app
-For privacy or data requests: privacy@talkli.app
+For general questions: hello@masdineroventures.com
+For privacy or data requests: privacy@masdineroventures.com
 
 ---
 
