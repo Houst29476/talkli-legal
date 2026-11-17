@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** 2026-08-04
-**Last updated:** 2026-08-04
+**Last updated:** 2026-11-17
 **Supersedes:** the version dated 2026-05-16
 
 This Privacy Policy describes how Mas Dinero Ventures LLC ("**we**," "**us**," or "**our**") handles information when you use Talkli (the "**App**") on iPhone or Android. We built Talkli around a single promise: **your voice, your video, your résumé — they stay on your phone**. This policy explains exactly what that means, exactly where its one exception is, and the small set of other things we receive.
@@ -10,11 +10,13 @@ This Privacy Policy describes how Mas Dinero Ventures LLC ("**we**," "**us**," o
 > three things shipped and did not describe them accurately. It has been
 > corrected to disclose: (a) that the optional Cloud AI Coach sends transcript
 > text to **Google**, not Anthropic; (b) that product analytics and crash
-> reporting are **on by default** and go to our own analytics service and to
-> Sentry respectively — Mixpanel is not and never was used; and (c) that the App
+> reporting go to our own analytics service and to Sentry respectively (they
+> were enabled by default then; since 2026-11-17 both are **off by default** and
+> start only if you turn them on) — Mixpanel is not and never was used; and (c) that the App
 > checks for over-the-air updates with Expo on every launch. Nothing about what
 > the App *does* with your audio, video or résumé changed: those still never
-> leave your device.
+> leave your device. Since 2026-11-17 the App also asks you once, during setup,
+> whether to share anonymous analytics; off remains the default (Section 3).
 
 ---
 
@@ -28,8 +30,8 @@ There is exactly **one** way any of your practice content can leave the device, 
 
 Beyond that, the information we can see is limited to:
 
-- **Anonymous app usage events** — **on by default**, off any time in the Privacy Center
-- **Anonymous crash and error reports** — **on by default**, off any time in the Privacy Center
+- **Anonymous app usage events** — **off by default**; sent only if you choose to share them when the App asks once during setup, or turn them on in the Privacy Center
+- **Anonymous crash and error reports** — **off by default**; sent only if you turn them on in the Privacy Center
 - **Subscription state** — managed by Apple or Google plus RevenueCat, needed to know whether you're Pro
 - **App update checks** — the App asks Expo's update service on each launch whether a newer version exists
 
@@ -85,11 +87,13 @@ If you want the strongest guarantee, leave it off. Every core metric (pace, fill
 
 ## 3. What we receive
 
-Each of the first two categories below is controlled by an explicit toggle in **You → Privacy Center**. Both are **on by default**; turning either off stops transmission immediately, not at the next launch.
+Each of the first two categories below is controlled by an explicit toggle in **You → Privacy Center**. Both are **off by default** (since 2026-11-17; installs from before then were switched off once by the update). Nothing in them is sent unless you turn the toggle on, and turning either off stops transmission immediately, not at the next launch.
 
-### 3.1 Product analytics (on by default)
+**The one question during setup.** On the permissions step of setup, the App asks once whether you want to share anonymous product analytics (3.1) — not crash reports, which stay a Privacy Center toggle. The two answers, "Share analytics" and "Keep analytics off", carry equal weight and neither is pre-selected; you cannot skip past without picking one, and either one lets you continue. "Share analytics" turns on the same Analytics toggle; "Keep analytics off" leaves it off. Nothing is sent before you answer, the question is not asked again, and you can change your answer at any time in the Privacy Center.
 
-If you leave **Analytics** on, we receive anonymous event data such as:
+### 3.1 Product analytics (off by default)
+
+If you turn **Analytics** on, we receive anonymous event data such as:
 
 - Which screens you visit (e.g. `today_viewed`, `session_started`)
 - Which features you use (e.g. `script_generated`, `resume_ats_scored`)
@@ -107,11 +111,13 @@ Events are associated with a randomly generated install identifier (a v4 UUID) t
 
 Events are buffered on the device and sent in signed batches roughly every 30 seconds. Turning the toggle off discards the buffer and stops sending.
 
+If you choose "Share analytics" during setup, the App also sends one event recording that this install was opened for the first time — the event it would have sent when you first opened it, which was not sent then because analytics was off — so your install is counted once. It is sent at the moment you answer and carries no more than any other event in 3.1. No other event from before your answer is sent.
+
 **Where it goes:** our own first-party analytics service, which we operate — not a third-party analytics vendor. See Section 6.
 
-### 3.2 Crash and error reports (on by default)
+### 3.2 Crash and error reports (off by default)
 
-If you leave **Crash Reporting** on, when the App crashes or hits an error we send:
+If you turn **Crash Reporting** on, when the App crashes or hits an error we send:
 
 - The crash or error stack trace and message
 - Recent in-app breadcrumbs (screen and action names, no content)
@@ -274,4 +280,4 @@ For privacy or data requests: privacy@talkli.app
 
 ---
 
-*Plain-language summary: Your voice, your video and your résumé never leave your phone — all the speech analysis and scoring happens on the device. The only thing that can ever leave is the text transcript of a mock-interview answer, and only if you switch on Cloud AI Coach, which starts off. Anonymous usage and crash data are on by default and can be turned off in one tap at You → Privacy Center. We sell nothing and train nothing on you.*
+*Plain-language summary: Your voice, your video and your résumé never leave your phone — all the speech analysis and scoring happens on the device. The only thing that can ever leave is the text transcript of a mock-interview answer, and only if you switch on Cloud AI Coach, which starts off. Anonymous usage and crash data are off by default and only sent if you turn them on at You → Privacy Center. We sell nothing and train nothing on you.*
