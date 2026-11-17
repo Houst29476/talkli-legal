@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** 2026-08-04
-**Last updated:** 2026-11-14
+**Last updated:** 2026-11-17
 **Supersedes:** the version dated 2026-05-16
 
 This Privacy Policy describes how Mas Dinero Ventures LLC ("**we**," "**us**," or "**our**") handles information when you use Talkli (the "**App**") on iPhone or Android. We built Talkli around a single promise: **your voice, your video, your résumé — they stay on your phone**. This policy explains exactly what that means, exactly where its one exception is, and the small set of other things we receive.
@@ -11,11 +11,11 @@ This Privacy Policy describes how Mas Dinero Ventures LLC ("**we**," "**us**," o
 > corrected to disclose: (a) that the optional Cloud AI Coach sends transcript
 > text to **Google**, not Anthropic; (b) that product analytics and crash
 > reporting go to our own analytics service and to Sentry respectively (they
-> were enabled by default then; since 2026-11-14 both are **off by default** and
+> were enabled by default then; since 2026-11-17 both are **off by default** and
 > start only if you turn them on) — Mixpanel is not and never was used; and (c) that the App
 > checks for over-the-air updates with Expo on every launch. Nothing about what
 > the App *does* with your audio, video or résumé changed: those still never
-> leave your device. Since 2026-11-14 the App also asks you once, during setup,
+> leave your device. Since 2026-11-17 the App also asks you once, during setup,
 > whether to share anonymous analytics; off remains the default (Section 3).
 
 ---
@@ -87,7 +87,7 @@ If you want the strongest guarantee, leave it off. Every core metric (pace, fill
 
 ## 3. What we receive
 
-Each of the first two categories below is controlled by an explicit toggle in **You → Privacy Center**. Both are **off by default** (since 2026-11-14; installs from before then were switched off once by the update). Nothing in them is sent unless you turn the toggle on, and turning either off stops transmission immediately, not at the next launch.
+Each of the first two categories below is controlled by an explicit toggle in **You → Privacy Center**. Both are **off by default** (since 2026-11-17; installs from before then were switched off once by the update). Nothing in them is sent unless you turn the toggle on, and turning either off stops transmission immediately, not at the next launch.
 
 **The one question during setup.** On the permissions step of setup, the App asks once whether you want to share anonymous product analytics (3.1) — not crash reports, which stay a Privacy Center toggle. The two answers, "Share analytics" and "Keep analytics off", carry equal weight and neither is pre-selected; you cannot skip past without picking one, and either one lets you continue. "Share analytics" turns on the same Analytics toggle; "Keep analytics off" leaves it off. Nothing is sent before you answer, the question is not asked again, and you can change your answer at any time in the Privacy Center.
 
